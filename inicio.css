@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    margin-top: 0px;
+    padding: 0;
+    width: 200px;
+}
+
+
+r img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 5%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+
+ img {
+    margin-top: -20px;
+}
+
+
+r h1 {
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+
+h1 {
+    color: #000000;
+    margin-top: -120px;
+}
+
+
+.sobre-nos {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: -120px;
+}
+
+/* Estilo para o título dentro da seção "Sobre Nós" */
+.sobre-nos h1 {
+    margin: 0;
+    text-align: left;
+}
+
+
+
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    
+}
+
+.ultimas-noticias article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+    margin-top:50px;
+}
+/* Estilo do botão */
+.btn-verde {
+    display: inline-block;
+    padding: 8px 16px; /* Ajuste o padding conforme necessário */
+    background-color: #4CAF50; /* Cor verde */
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em; /* Tamanho de fonte responsivo */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adicionado um efeito de transição para o hover */
+}
+
+/* Efeito de hover no botão */
+.btn-verde:hover {
+    background-color: #45a049; /* Cor verde mais escura no hover */
+}
+
+
+@media screen and (max-width: 2366px) {
+    /* Estilos específicos para telas menores, como smartphones */
+    
+
+    header, main, footer {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .sobre-mim {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+
