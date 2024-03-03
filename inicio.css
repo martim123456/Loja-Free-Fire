@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+
+    background-image: url('08-credito-habitacao.png');
+    background-size: cover; /* Isso ajustará a imagem para cobrir toda a tela */
+    background-position: center; /* Isso posicionará a imagem no centro */
+    background-repeat: no-repeat; /* Isso evita a repetição da imagem */
+}
+
+header, main, footer {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    margin-top: 20px;
+    width: 200px;
+    align-items: center;
+    display:block;
+    margin:auto;
+}
+
+
+r img {
+    margin-left: 50%;
+    margin-right: 50%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    justify-content: center;
+}
+
+
+ img {
+    margin-top: 40px;
+    font-size: x-large;
+    
+}
+
+
+r h1 {
+    margin-top: 70px;
+    position: relative;
+    z-index: 2;
+    font-size: x-large;
+    text-align: center;
+    
+}
+
+
+h1 {
+    color: #000000;
+    margin-top: -90px;
+    text-align: center;
+    font-size: x-large;
+
+    
+}
+
+
+.sobre-nos {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: -120px;
+    font-size: x-large;
+}
+
+/* Estilo para o título dentro da seção "Sobre Nós" */
+.sobre-nos h1 {
+    margin: 0;
+    text-align: left;
+    font-size: x-large;
+}
+
+
+
+
+
+#emailContainer {
+    margin: 20px 0;
+}
+                                   
+#emailInput {
+    padding: 10px;
+    width: 280px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+.ultimas-noticias article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer  {
+    background-color: #bebbbbd3;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    bottom: 0;
+    width: 100%;
+    margin-top:50px;
+    font-size: x-large;
+}
+
+footer p {
+    
+font-size:x-small;
+
+}
+/* Estilo do botão */
+.btn-verde {
+    display: inline-block;
+    padding: 8px 16px; /* Ajuste o padding conforme necessário */
+    background-color: #4CAF50; /* Cor verde */
+    color: #fff; /* Cor do texto */
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em; /* Tamanho de fonte responsivo */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adicionado um efeito de transição para o hover */
+}
+
+/* Efeito de hover no botão */
+.btn-verde:hover {
+    background-color: #45a049; /* Cor verde mais escura no hover */
+}
+
+
+@media screen and (max-width: 2366px) {
+    /* Estilos específicos para telas menores, como smartphones */
+    
+
+    header, main, footer {
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .sobre-mim {
+        margin: 0;
+        padding: 10px;
+    }
+}
+#emailContainer {
+    margin: 20px 0;
+}
+                                   
+#emailInput {
+    padding: 10px;
+    width: 280px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+
