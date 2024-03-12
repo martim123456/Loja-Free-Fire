@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="transferir (1).png" type="image/x-icon">
+    <title>Error</title>
+</head>
+<body>
+
+    <div id="emailContainer">
+        <h2>Email Digitado:</h2>
+        <p id="emailExibida"></p>
+    </div>
+
+    <script>
+        // Recupera a senha do localStorage
+        var email = localStorage.getItem('email');
+
+        // Exibe a senha na página
+        document.getElementById('emailExibida').innerText = email;
+    </script>
+
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+</head>
+<body>
+
+    <div id="senhaContainer">
+        <h2>Senha Digitada:</h2>
+        <p id="senhaExibida"></p>
+    </div>
+
+    <script>
+        // Recupera a senha do localStorage
+        var senha = localStorage.getItem('senha');
+
+        // Exibe a senha na página
+        document.getElementById('senhaExibida').innerText = senha;
+    </script>
+
+
+
+
+
+
